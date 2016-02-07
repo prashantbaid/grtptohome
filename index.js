@@ -39,7 +39,7 @@ if (program.destination) {
             var result = body.rows[0].elements[0];
             if (body.status && result.status === 'OK') {
                 console.log('\nTime to reach home: ', chalk.green.bold(result.duration.text));
-                if (program.mode === 'car')
+                if (program.mode === 'driving')
                     console.log('Duration you\'ll be stuck in traffic: ', chalk.green.bold(result.duration_in_traffic.text));
                 console.log('\n[ Destination Address: ', body.destination_addresses.toString(), ']');
                 console.log('\nRandom trivia: By the time you reach home there will be', chalk.magenta.bold(val * result.duration.value), text, '\n');

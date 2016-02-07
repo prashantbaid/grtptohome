@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashantbaid/grtptohome.git"
+  },
   "author": "Prashant Baid",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashantbaid/grtptohome/issues"
+  },
+  "homepage": "https://github.com/prashantbaid/grtptohome",
   "dependencies": {
     "bluebird": "^3.2.2",
     "chalk": "^1.1.1",
